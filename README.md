@@ -17,6 +17,13 @@ class Post(models.Model):
     - python manage.py migrate
 
 
+- admin.py 수정 
+```python
+from django.contrib import admin
+from .models import Post
+# Register your models here.
+admin.site.register(Post)
+```
 
 
 
