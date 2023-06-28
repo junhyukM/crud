@@ -12,6 +12,6 @@ urlpatterns = [
     path('new/', views.new, name='new'),
     path('create/', views.create, name='create'),
     # Delete
-
+    path('delete/<int:id>/', views.delete, name='delete'),
     # Update
 ]
